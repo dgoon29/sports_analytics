@@ -1,0 +1,103 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","library(ISLR)"
+"0","library(glmnet)"
+"2","Warning: package ‘glmnet’ was built under R version 4.3.2"
+"2","Loading required package: Matrix
+"
+"2","Warning: package ‘Matrix’ was built under R version 4.3.2"
+"2","Loaded glmnet 4.1-8
+"
+"0","library(dplyr)"
+"2","Warning: package ‘dplyr’ was built under R version 4.3.2"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(pROC)"
+"2","Warning: package ‘pROC’ was built under R version 4.3.2"
+"2","Type 'citation(""pROC"")' for a citation.
+"
+"2","
+Attaching package: ‘pROC’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    cov, smooth, var
+
+"
+"0","library(nnet)"
+"0","library(AER)"
+"2","Warning: package ‘AER’ was built under R version 4.3.2"
+"2","Loading required package: car
+"
+"2","Warning: package ‘car’ was built under R version 4.3.2"
+"2","Loading required package: carData
+"
+"2","Warning: package ‘carData’ was built under R version 4.3.2"
+"2","
+Attaching package: ‘car’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    recode
+
+"
+"2","Loading required package: lmtest
+"
+"2","Warning: package ‘lmtest’ was built under R version 4.3.2"
+"2","Loading required package: zoo
+"
+"2","Warning: package ‘zoo’ was built under R version 4.3.2"
+"2","
+Attaching package: ‘zoo’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+"
+"2","Loading required package: sandwich
+"
+"2","Warning: package ‘sandwich’ was built under R version 4.3.2"
+"2","Loading required package: survival
+"
+"0","library(MASS)"
+"2","
+Attaching package: ‘MASS’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    select
+
+"
+"0","# Install the readxl package if you haven't already"
+"0","install.packages(""readxl"")"
+"1","Error in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," : "
+"1",""
+"1","Updating loaded packages"
+"1",""
+"1","
+"
+"0","# Load the readxl package"
+"0","library(readxl)"
+"2","Warning: package ‘readxl’ was built under R version 4.3.2"
+"0","df <-  read_excel('nba_2022-23_all_stats_with_salary.xlsx')"
+"2","New names:"

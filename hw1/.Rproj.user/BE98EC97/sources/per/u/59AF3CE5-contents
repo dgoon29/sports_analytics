@@ -1,0 +1,32 @@
+---
+title: "hw1"
+output: html_document
+date: "2024-02-18"
+---
+
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+library(ISLR)
+library(glmnet)
+library(dplyr)
+library(pROC)
+library(nnet)
+library(AER)
+library(MASS)
+
+
+# Install the readxl package if you haven't already
+install.packages("readxl")
+
+# Load the readxl package
+library(readxl)
+
+df <-  read_excel('nba_2022-23_all_stats_with_salary.xlsx')
+
+```
+```{r}
+lm <- lm(Salary ~., data=df, family='binomial')
+summary(lm)
+```
+
